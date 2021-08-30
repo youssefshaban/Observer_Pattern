@@ -26,8 +26,8 @@ public class Observeble implements IObserveble {
         return news;
     }
 
-    public void setNews(String news) {
-        this.news = news;
+    public void setUpdate(String update) {
+        this.news = update;
         update();
     }
 }

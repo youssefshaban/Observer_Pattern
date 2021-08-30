@@ -3,12 +3,13 @@ public class ObserverPattern {
     public static void main(String[] args) {
         Observeble observeble = new Observeble();
 
-        new Observer(observeble);
-        new Observer(observeble);
-        new Observer(observeble);
-        new Observer(observeble);
+        Observer o1 = new Observer(observeble);
+        Observer o2 =new Observer(observeble);
+        Observer o3 =new Observer(observeble);
+        Observer o4 =new Observer(observeble);
 
-        observeble.setNews("news 1");
-        observeble.setNews("news 2");
+        observeble.setUpdate("news 1");
+        observeble.remove(o1);
+        observeble.setUpdate("news 2");
     }
 }

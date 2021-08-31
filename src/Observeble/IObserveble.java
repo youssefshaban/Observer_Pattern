@@ -1,3 +1,7 @@
+package Observeble;
+
+import Observer.Observer;
+
 public interface IObserveble {
     public void register(Observer observer);
     public void remove(Observer observer);

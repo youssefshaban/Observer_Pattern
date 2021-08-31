@@ -1,3 +1,7 @@
+package Observer;
+
+import Observeble.Observeble;
+
 public class Observer implements IObserver{
     private Observeble observeble;
 

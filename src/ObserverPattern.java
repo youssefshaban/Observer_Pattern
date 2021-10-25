@@ -6,9 +6,9 @@ public class ObserverPattern {
         Observeble observeble = new Observeble();
 
         Observer o1 = new Observer(observeble);
-        Observer o2 =new Observer(observeble);
-        Observer o3 =new Observer(observeble);
-        Observer o4 =new Observer(observeble);
+        Observer o2 = new Observer(observeble);
+        Observer o3 = new Observer(observeble);
+        Observer o4 = new Observer(observeble);
 
         observeble.setUpdate("news 1");
         observeble.remove(o1);
